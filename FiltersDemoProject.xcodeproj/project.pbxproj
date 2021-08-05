@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BF78CC1126B7EBED00EB8308 /* BlurringTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurringTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF78CC1126B7EBED00EB8308 /* FiltersDemoProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FiltersDemoProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF78CC1426B7EBED00EB8308 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF78CC1626B7EBED00EB8308 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BF78CC1826B7EBED00EB8308 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		BF78CC0826B7EBED00EB8308 = {
 			isa = PBXGroup;
 			children = (
-				BF78CC1326B7EBED00EB8308 /* BlurringTest */,
+				BF78CC1326B7EBED00EB8308 /* FiltersDemoProject */,
 				BF78CC1226B7EBED00EB8308 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		BF78CC1226B7EBED00EB8308 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF78CC1126B7EBED00EB8308 /* BlurringTest.app */,
+				BF78CC1126B7EBED00EB8308 /* FiltersDemoProject.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BF78CC1326B7EBED00EB8308 /* BlurringTest */ = {
+		BF78CC1326B7EBED00EB8308 /* FiltersDemoProject */ = {
 			isa = PBXGroup;
 			children = (
 				BF78CC1426B7EBED00EB8308 /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				BF78CC1F26B7EBEF00EB8308 /* LaunchScreen.storyboard */,
 				BF78CC2226B7EBEF00EB8308 /* Info.plist */,
 			);
-			path = BlurringTest;
+			path = FiltersDemoProject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BF78CC1026B7EBED00EB8308 /* BlurringTest */ = {
+		BF78CC1026B7EBED00EB8308 /* FiltersDemoProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF78CC2526B7EBEF00EB8308 /* Build configuration list for PBXNativeTarget "BlurringTest" */;
+			buildConfigurationList = BF78CC2526B7EBEF00EB8308 /* Build configuration list for PBXNativeTarget "FiltersDemoProject" */;
 			buildPhases = (
 				BF78CC0D26B7EBED00EB8308 /* Sources */,
 				BF78CC0E26B7EBED00EB8308 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = BlurringTest;
+			name = FiltersDemoProject;
 			productName = BlurringTest;
-			productReference = BF78CC1126B7EBED00EB8308 /* BlurringTest.app */;
+			productReference = BF78CC1126B7EBED00EB8308 /* FiltersDemoProject.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BF78CC0C26B7EBED00EB8308 /* Build configuration list for PBXProject "BlurringTest" */;
+			buildConfigurationList = BF78CC0C26B7EBED00EB8308 /* Build configuration list for PBXProject "FiltersDemoProject" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BF78CC1026B7EBED00EB8308 /* BlurringTest */,
+				BF78CC1026B7EBED00EB8308 /* FiltersDemoProject */,
 			);
 		};
 /* End PBXProject section */
@@ -288,12 +288,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7T54WZ2884;
-				INFOPLIST_FILE = BlurringTest/Info.plist;
+				INFOPLIST_FILE = FiltersDemoProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hasanaygunoglu.BlurringTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hasanaygunoglu.FiltersDemoProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,12 +307,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7T54WZ2884;
-				INFOPLIST_FILE = BlurringTest/Info.plist;
+				INFOPLIST_FILE = FiltersDemoProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.hasanaygunoglu.BlurringTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hasanaygunoglu.FiltersDemoProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BF78CC0C26B7EBED00EB8308 /* Build configuration list for PBXProject "BlurringTest" */ = {
+		BF78CC0C26B7EBED00EB8308 /* Build configuration list for PBXProject "FiltersDemoProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF78CC2326B7EBEF00EB8308 /* Debug */,
@@ -331,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF78CC2526B7EBEF00EB8308 /* Build configuration list for PBXNativeTarget "BlurringTest" */ = {
+		BF78CC2526B7EBEF00EB8308 /* Build configuration list for PBXNativeTarget "FiltersDemoProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF78CC2626B7EBEF00EB8308 /* Debug */,
