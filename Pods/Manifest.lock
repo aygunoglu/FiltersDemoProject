@@ -1,0 +1,16 @@
+PODS:
+  - BasicFilters (1.0.0)
+
+DEPENDENCIES:
+  - BasicFilters
+
+SPEC REPOS:
+  trunk:
+    - BasicFilters
+
+SPEC CHECKSUMS:
+  BasicFilters: 3fee11b551a27a382bfb7bdeb836a50d2b2d0201
+
+PODFILE CHECKSUM: 1884f539167820816810474c39ab0265e350ca9d
+
+COCOAPODS: 1.10.2
