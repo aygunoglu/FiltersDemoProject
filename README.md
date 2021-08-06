@@ -1,6 +1,6 @@
 # FiltersDemoProject
 
-Demo project to showcase the BasicFilters framework.
+Demo project to demonstrate BasicFilters framework's functionalities.
 
 ## Screens
 
