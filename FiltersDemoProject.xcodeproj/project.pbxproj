@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		BF78CC1C26B7EBED00EB8308 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF78CC1A26B7EBED00EB8308 /* Main.storyboard */; };
 		BF78CC1E26B7EBEF00EB8308 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF78CC1D26B7EBEF00EB8308 /* Assets.xcassets */; };
 		BF78CC2126B7EBEF00EB8308 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF78CC1F26B7EBEF00EB8308 /* LaunchScreen.storyboard */; };
+		BF98B14126BDD4B400A0FBAC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BF98B14026BDD4B400A0FBAC /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,7 @@
 		BF78CC1D26B7EBEF00EB8308 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF78CC2026B7EBEF00EB8308 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF78CC2226B7EBEF00EB8308 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF98B14026BDD4B400A0FBAC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,13 +71,13 @@
 				B3893A36D291A65C99DBC0FF /* Pods-FiltersDemoProject.debug.xcconfig */,
 				55DC7D5987C0697B981FC339 /* Pods-FiltersDemoProject.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		BF78CC0826B7EBED00EB8308 = {
 			isa = PBXGroup;
 			children = (
+				BF98B14026BDD4B400A0FBAC /* README.md */,
 				BF78CC1326B7EBED00EB8308 /* FiltersDemoProject */,
 				BF78CC1226B7EBED00EB8308 /* Products */,
 				9A15D727B7661C89C1AFAC07 /* Pods */,
@@ -167,6 +169,7 @@
 			files = (
 				BF78CC2126B7EBEF00EB8308 /* LaunchScreen.storyboard in Resources */,
 				BF78CC1E26B7EBEF00EB8308 /* Assets.xcassets in Resources */,
+				BF98B14126BDD4B400A0FBAC /* README.md in Resources */,
 				BF78CC1C26B7EBED00EB8308 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
